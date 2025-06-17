@@ -1,4 +1,4 @@
-# Netflix Content-Based Recommender
+# Netflix Content-Based Recommender 🎬
 
 This project is a real, working content-based recommendation system for Netflix movies and TV shows.You type in a movie or show you liked, and it suggests similar titles based on genres, director, cast, and description — all powered by TF-IDF vectorization and cosine similarity.
 
@@ -6,7 +6,7 @@ As a student learning Python and machine learning, I built this project to pract
 
 ---
 
-## Learning Context
+## Learning Context 📚
 
 I built this in May 2025, during my fourth month learning Python. At this stage, I wanted to go beyond scripts and build a logic-first, data-driven application using real tools from the data science world.
 
@@ -22,7 +22,7 @@ This is what, I hope, will make me grow as a developer, getting out of my confor
 
 ---
 
-## Project Structure
+## Project Structure 📁
 
 netflix_recommender/
 ├── data/
@@ -37,7 +37,7 @@ netflix_recommender/
 
 ---
 
-## Features
+## Features ✨
 
 - Input a movie or TV show title and get the top 5 most similar titles from the Netflix catalog.
 - Fuzzy matching: handles typos and close matches.
@@ -48,7 +48,7 @@ netflix_recommender/
 
 ---
 
-## Technologies and Concepts Used
+## Technologies and Concepts Used 🧰
 
 - Python 3
 - pandas for data loading & manipulation
@@ -58,7 +58,7 @@ netflix_recommender/
 
 ---
 
-## Dataset
+## Dataset 📊
 
 Netflix Movies and TV Shows from Kaggle  
 https://www.kaggle.com/datasets/shivamb/netflix-shows
@@ -67,7 +67,7 @@ Place the file `netflixData.csv` inside the `data/` folder.
 
 ---
 
-## Getting Started
+## Getting Started 🚀
 
 1. Clone the repo
 
@@ -83,7 +83,7 @@ Download `netflixData.csv` from Kaggle and place it in the `data/` folder.
 
 ---
 
-## How the Recommendation Engine Works
+## How the Recommendation Engine Works 🧠
 
 The app is powered by a content-based filtering algorithm that lives in `recommender.py`. Here’s how it finds similar titles:
 
@@ -104,9 +104,9 @@ The engine retrieves the top N most similar titles (excluding the original) and 
 
 ---
 
-## How to Use
+## How to Use 🛠️
 
-### Simple Terminal Script
+### Simple Terminal Script 💻
 
 Before running the scripts make sure you are in /data to use the csv file with the dataset.
 Run the recommender in your terminal:
@@ -118,7 +118,7 @@ python src/simple.py
 - Enter a movie or TV show title when prompted.
 - See the top 5 similar recommendations printed in the terminal.
 
-### GUI App
+### GUI App 🪟
 
 Run the graphical interface from the /data folder:
 
@@ -133,7 +133,7 @@ python src/gui.py
 
 ---
 
-## Challenges encountered and how I bypassed them
+## Challenges encountered and how I bypassed them 🧩
 
 - Data inconsistencies
 Some columns had missing values or inconsistent naming. I used fillna() and standard text cleaning functions.
@@ -149,7 +149,7 @@ At first, I didn’t understand these terms. I wrote everything I learned in Exp
 
 ---
 
-## For Students or beginners
+## For Students or beginners 👨‍🎓
 
 Check out Explanations.md to learn:
 - What is vectorization?
@@ -161,7 +161,7 @@ These are explained in plain language — exactly how I taught myself.
 
 ---
 
-## 📝 Conclusion
+## Conclusion 📝
 
 This is the most technical project I’ve built so far — combining data science, text cleaning, vector math, and GUI design. It helped me grow as a developer by forcing me to learn real-world tools and make sense of abstract concepts.
 
